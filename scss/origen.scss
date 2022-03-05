@@ -11,31 +11,28 @@
 .menu-p-flex{
     display: flex;
     flex-direction: row;
-    background-color:$gris-claro;  
-}
-
-.menu-p{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-        li{
-            list-style-type: none;
-            margin: 6px;
-            font-size: 16px;
-                a{
-                    text-decoration: none;
-                    color: $negro;
-                        &:hover{
-                            color:$color-p;
-                        }
-                }
-        }
-}
-
-.banner-p{
-    width:auto;
-    height: 9vh;
-    margin-right: 54%;
+    background-color:$gris-claro; 
+    .menu-p{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+            li{
+                list-style-type: none;
+                margin: 6px;
+                font-size: 15px;
+                font-family: $maven-pro;
+                text-transform: uppercase;
+                    a{
+                        text-decoration: none;
+                        color: $color-p;
+                    }
+            }
+    } 
+    .banner-p{
+        width:auto;
+        height: 9vh;
+        margin-right: 48%;
+    }
 }
 
 /*Menú Navegación 2*/
@@ -52,26 +49,26 @@
             margin: 8px;
                 a{
                     text-decoration: none;
-                    text-align: start;
                     color: $negro;
-                    font-size: 14px;
+                    font-family: $maven-pro; 
+                    font-size: 15px;
                         &:hover{
                             color: $color-s;
                         }
                 }
-
                 i{
                     margin-right: 8px;
-                    color: $color-p;
+                    color: $color-p2;
                 }
         }
 }
 
 .title-p2{
-    margin:20px 45% 20px 40px;
+    margin:20px 41% 20px 40px;
     font-size: 18px;
+    font-family: $maven-pro; 
     text-align: center;
-    color:$color-p ;
+    color:$color-p2 ;
 }
 /*Sección inicio*/
 
@@ -93,8 +90,8 @@
     width: 300px;
         h3{
             font-size: 18px;
-            color: $negro-claro;
-            
+            font-family: $merry;
+            color: $negro;
         }
         hr{
             opacity: 100%;
@@ -103,6 +100,7 @@
         } 
         p{
             color:$color-p;
+            font-family: $merry;
             padding-top: 20px;
             font-size: 17px;
             
@@ -117,13 +115,13 @@
     width: 100px;
     color: $blanco;
     font-size: 18px;
-    background-color:$color-p;
+    background-color:$color-p2;
     border:solid black 2px;
     border-radius: 4px;
     transition: 0.5s;
         &:hover{
             color: $color-p;
-            background-color: white;
+            background-color: $blanco;
             transform: translateY(10px);
         }
 }

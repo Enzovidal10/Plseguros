@@ -10,12 +10,12 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    align-items: center;
     height: 10vh;
     padding-top:20px;
         h2{
             margin-top: 20px;
-            font-size: 25px;
+            font-size: 28px;
+            font-family:$title-galeria;
                 hr{
                     margin: 5px;
                     width: 600px;
@@ -41,12 +41,16 @@
                     border-radius: 3px;
                 }
             h4{
-                text-align: center
+                text-align: center;
+                font-family:$maven-pro; 
+                font-size: 20px;
             }
             p{
-                font-size: 15px;
+                font-size: 17px;
                 text-align: center;
+                font-family:$maven-pro; 
                 padding: 10px;
+                color: $negro-claro;
             }
         }
 }
@@ -56,8 +60,7 @@
 
 .sect-se{
     height: 100%;
-    background-color:rgba(138, 45, 45, 0.788);
-    border: solid $color-s 3px;
+    background-color:$color-p2;
 }
 .title-se{
    @extend .title-sp;
@@ -81,12 +84,15 @@
                 }
                 h4{
                     text-align: center;
+                    font-family: $maven-pro; 
+                    font-size: 20px;
                 }
                 p{
-                    font-size: 15px;
+                    font-size: 17px;
                     text-align: center;
                     padding: 10px;
                     color: white;
+                    font-family: $maven-pro; 
                 }
 }
 }
@@ -123,6 +129,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: $color-p2;
 }
 .contacto-flex{
     width:50%;
@@ -135,10 +142,12 @@
         li{
             list-style: none;
             font-size: 20px;
+            font-family: $maven-pro;
+            color: $blanco;
                 i{
                     padding: 8px 10px;
                     font-size: 23px;
-                    color: $color-p;
+                    color: $color-s;
                 }
         }
     }
@@ -152,7 +161,9 @@
             margin-top: 25px;
             text-align: start;
             font-size: 20px;
+            font-family: $maven-pro;
             margin-left: 35px;
+            color: $blanco;
         }
         .mapa{
             margin-top: 40px;
