@@ -1,0 +1,136 @@
+/*Menu Navegación 1*/
+.menu-p-flex{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(39, 39, 39);
+    .menu-p{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+            li{
+                list-style-type: none;
+                margin: 6px;
+                font-size: 15px;
+                font-family: $title-galeria;
+                text-transform: uppercase;
+                    a{
+                        text-decoration: none;
+                        color: rgba(255, 255, 255, 0.644);
+                        &:hover{
+                            color: $blanco;
+                        }
+                    }
+            }
+    } 
+    .banner-p{
+        width:220px;
+        height: 9vh;
+        margin-right: 45vw;
+        border-radius: 3px;
+    }
+}
+
+/*Menú Navegación 2*/
+.menu-p2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 9vh;
+    background-color:$gris-claro;
+        li{
+            @extend .menu-p2 ;
+            list-style-type: none;
+            margin: 8px;
+                a{
+                    text-decoration: none;
+                    color: $negro;
+                    font-family: $title-galeria;
+                    font-weight: 500;
+                    font-size: 15px;
+                        &:hover{
+                            color: $color-s;
+                        }
+                }
+                i{
+                    margin-right: 8px;
+                    color: $color-p2;
+                }
+        }
+}
+
+.title-p2{
+    margin:20px 38% 20px 40px;
+    font-size: 18px;
+    font-family:$title-galeria;
+    text-align: center;
+    color:$negro ;
+}
+
+/*Sección inicio*/
+.sect-inicio{
+    background-image: url(../img/fondo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.presentacion-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+    margin:0px 100px ;
+}
+.presentacion{
+    text-align: center;
+    background-color: rgba(212, 211, 211, 0.603);
+    backdrop-filter: blur(3px);
+    padding: 70px;  
+    width: 350px;
+        h3{
+            font-size: 20px;
+            font-family:$title-galeria;
+            color: $negro;
+        }
+        hr{
+            opacity: 100%;
+            border: solid 1px $color-s;
+            margin-top:5px ;
+        } 
+        p{
+            color:$color-p;
+            font-family: $title-galeria;
+            padding-top: 20px;
+            font-size: 17px;
+            
+        }
+}
+
+//boton contacto
+.btn1{
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 5px;
+    width: 100px;
+    color: $blanco;
+    font-size: 18px;
+    background-color:$color-p2;
+    border:solid black 2px;
+    border-radius: 4px;
+    transition: 0.5s;
+        &:hover{
+            color: $color-p;
+            background-color: $blanco;
+            transform: translateY(10px);
+        }
+}
+
+//icono whatsapp p-fixed//
+#icon-wp{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}

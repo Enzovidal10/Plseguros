@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Maven+Pro&family=Merriweather+Sans&family=ZCOOL+QingKe+HuangYou&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Alata&family=Black+Ops+One&family=Carter+One&family=Courgette&family=Exo+2&family=Francois+One&family=Fredoka&family=Fredoka+One&family=Kalam&family=Lalezar&family=Mali:wght@400;600&family=Marcellus+SC&family=Maven+Pro&family=Merienda:wght@700&family=Odor+Mean+Chey&family=Patua+One&family=Paytone+One&family=Press+Start+2P&family=Righteous&family=Roboto&family=Syncopate&family=ZCOOL+QingKe+HuangYou&display=swap");
 * {
   margin: 0%;
   padding: 0%; }
@@ -18,7 +18,7 @@
   .title-sp h2, .title-se h2, .title-e h2, .title-contacto h2, .title-ubi h2 {
     margin-top: 20px;
     font-size: 28px;
-    font-family: "ZCOOL QingKe HuangYou", cursive; }
+    font-family: "Roboto", sans-serif; }
     .title-sp h2 hr, .title-se h2 hr, .title-e h2 hr, .title-contacto h2 hr, .title-ubi h2 hr {
       margin: 5px;
       width: 600px;
@@ -41,17 +41,18 @@
     .galeria-sp .card h4 {
       text-align: center;
       font-family: "Maven Pro", sans-serif;
-      font-size: 20px; }
+      font-size: 20px;
+      color: #640B00; }
     .galeria-sp .card p {
       font-size: 17px;
       text-align: center;
       font-family: "Maven Pro", sans-serif;
       padding: 10px;
-      color: rgba(19, 19, 19, 0.856); }
+      color: black; }
 
 .sect-se {
   height: 100%;
-  background-color: #8C6954; }
+  background-color: #735439; }
 
 .galeria-se {
   margin-top: 60px;
@@ -94,7 +95,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #8C6954; }
+  background-color: #735439; }
 
 .contacto-flex {
   width: 50%;
@@ -114,6 +115,30 @@
         font-size: 23px;
         color: #640B00; }
 
+.img-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.icon-contacto {
+  width: 55px;
+  height: auto;
+  margin: 50px 20px;
+  transition: 0.5s; }
+  .icon-contacto:hover {
+    transform: translateY(-10px); }
+
+.carrousel-flex {
+  position: absolute;
+  margin-left: 200px;
+  width: 300px; }
+
+.carrousel1 {
+  display: block;
+  width: 300px;
+  height: 500px; }
+
 .ubi-flex {
   width: 50%;
   height: 100%;
@@ -127,16 +152,29 @@
     color: white; }
   .ubi-flex .mapa {
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 83px;
     border: solid #640B00 2px;
-    width: 450px;
+    width: 500px;
     height: 300px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.863);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  height: 4vh;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  border: solid rgba(0, 0, 0, 0.514) 2px; }
+  footer .linkedin {
+    color: white;
+    text-transform: uppercase; }
 
 /*Menu Navegación 1*/
 .menu-p-flex {
   display: flex;
   flex-direction: row;
-  background-color: #F0F0F0; }
+  background-color: #272727; }
   .menu-p-flex .menu-p {
     display: flex;
     flex-direction: row;
@@ -145,15 +183,18 @@
       list-style-type: none;
       margin: 6px;
       font-size: 15px;
-      font-family: "Maven Pro", sans-serif;
+      font-family: "Roboto", sans-serif;
       text-transform: uppercase; }
       .menu-p-flex .menu-p li a {
         text-decoration: none;
-        color: #73482F; }
+        color: rgba(255, 255, 255, 0.644); }
+        .menu-p-flex .menu-p li a:hover {
+          color: white; }
   .menu-p-flex .banner-p {
-    width: auto;
+    width: 220px;
     height: 9vh;
-    margin-right: 48%; }
+    margin-right: 45vw;
+    border-radius: 3px; }
 
 /*Menú Navegación 2*/
 .menu-p2, .menu-p2 li {
@@ -161,47 +202,52 @@
   flex-direction: row;
   align-items: center;
   height: 9vh;
-  background-color: white; }
+  background-color: #F0F0F0; }
   .menu-p2 li {
     list-style-type: none;
     margin: 8px; }
     .menu-p2 li a {
       text-decoration: none;
       color: black;
-      font-family: "Maven Pro", sans-serif;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
       font-size: 15px; }
       .menu-p2 li a:hover {
         color: #640B00; }
     .menu-p2 li i {
       margin-right: 8px;
-      color: #8C6954; }
+      color: #735439; }
 
 .title-p2 {
-  margin: 20px 41% 20px 40px;
+  margin: 20px 38% 20px 40px;
   font-size: 18px;
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  color: #8C6954; }
+  color: black; }
 
 /*Sección inicio*/
 .sect-inicio {
-  background-image: url(../img/fondo4.jpg);
-  background-size: 100%;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh; }
 
+.presentacion-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 100px;
+  margin: 0px 100px; }
+
 .presentacion {
-  margin-top: 150px;
-  margin-left: 100px;
   text-align: center;
   background-color: rgba(212, 211, 211, 0.603);
   backdrop-filter: blur(3px);
-  position: absolute;
   padding: 70px;
-  width: 300px; }
+  width: 350px; }
   .presentacion h3 {
-    font-size: 18px;
-    font-family: "Merriweather Sans", sans-serif;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
     color: black; }
   .presentacion hr {
     opacity: 100%;
@@ -209,19 +255,18 @@
     margin-top: 5px; }
   .presentacion p {
     color: #73482F;
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     padding-top: 20px;
     font-size: 17px; }
 
 .btn1 {
-  position: absolute;
-  margin-top: 460px;
-  margin-left: 270px;
+  margin-top: 50px;
+  margin-left: 200px;
   padding: 5px;
   width: 100px;
   color: white;
   font-size: 18px;
-  background-color: #8C6954;
+  background-color: #735439;
   border: solid black 2px;
   border-radius: 4px;
   transition: 0.5s; }
@@ -237,15 +282,3 @@
   bottom: 0;
   right: 0;
   margin: 20px; }
-
-footer {
-  background-color: #73482F;
-  font-family: "Maven Pro", sans-serif;
-  font-size: 15px;
-  height: 4vh;
-  text-align: center;
-  padding: 5px;
-  color: white;
-  border: solid rgba(0, 0, 0, 0.514) 2px; }
-  footer .linkedin {
-    color: black; }

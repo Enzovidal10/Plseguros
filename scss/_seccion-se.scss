@@ -1,0 +1,62 @@
+//Sección Seguros Empresariales//
+
+.sect-se{
+    height: 100%;
+    background-color:$color-p2;
+}
+.title-se{
+   @extend .title-sp;
+}
+
+.galeria-se{
+    margin-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns:repeat(4 25vw);
+    grid-template-areas: 
+    "card card card card";
+        .card{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+                .img-se{
+                    width: 273px;
+                    height: 180px;
+                    border-radius: 3px;
+                }
+                h4{
+                    text-align: center;
+                    font-family: $title-card; 
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 17px;
+                    text-align: center;
+                    padding: 10px;
+                    color: white;
+                    font-family: $title-card; 
+                }
+}
+}
+
+//Sección Empresas//
+.title-e{
+    @extend .title-sp ;
+}
+
+.sect-empresas{
+    
+        .empresas-flex{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 70vh;
+            padding: 30px;
+            align-items: center;
+                img{
+                width: 150px;
+                padding: 10px
+                }
+        }
+}

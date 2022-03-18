@@ -42,139 +42,18 @@
                 }
             h4{
                 text-align: center;
-                font-family:$maven-pro; 
+                font-family:$title-card; 
                 font-size: 20px;
+                color: $color-s;
             }
             p{
                 font-size: 17px;
                 text-align: center;
-                font-family:$maven-pro; 
+                font-family:$title-card; 
                 padding: 10px;
-                color: $negro-claro;
+                color: $negro;
             }
         }
 }
 
-
-//Sección Seguros Empresariales//
-
-.sect-se{
-    height: 100%;
-    background-color:$color-p2;
-}
-.title-se{
-   @extend .title-sp;
-}
-
-.galeria-se{
-    margin-top: 60px;
-    padding-bottom: 60px;
-    display: grid;
-    grid-template-columns:repeat(4 25vw);
-    grid-template-areas: 
-    "card card card card";
-        .card{
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-                .img-se{
-                    width: 273px;
-                    height: 180px;
-                    border-radius: 3px;
-                }
-                h4{
-                    text-align: center;
-                    font-family: $maven-pro; 
-                    font-size: 20px;
-                }
-                p{
-                    font-size: 17px;
-                    text-align: center;
-                    padding: 10px;
-                    color: white;
-                    font-family: $maven-pro; 
-                }
-}
-}
-
-//Sección Empresas//
-.title-e{
-    @extend .title-sp ;
-}
-
-.sect-empresas{
-    
-        .empresas-flex{
-            display: flex;
-            flex-direction:row;
-            flex-wrap: wrap;
-            justify-content: center;
-            height: 70vh;
-            padding: 30px;
-            align-items: center;
-                img{
-                width: 150px;
-                padding: 10px
-                }
-        }
-}
-
-//Sección Contacto//
-
-.title-contacto{
-    @extend .title-sp ;
-}
-
-.sect-contacto{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: $color-p2;
-}
-.contacto-flex{
-    width:50%;
-    height: 100%;
-    padding-bottom: 80px;
-    ul{
-        margin-top: 20px;
-        margin-left: 50px;
-        text-align: start;
-        li{
-            list-style: none;
-            font-size: 20px;
-            font-family: $maven-pro;
-            color: $blanco;
-                i{
-                    padding: 8px 10px;
-                    font-size: 23px;
-                    color: $color-s;
-                }
-        }
-    }
-}
-
-.ubi-flex{
-    width:50%;
-    height: 100%;
-    padding-bottom: 80px;
-        p{
-            margin-top: 25px;
-            text-align: start;
-            font-size: 20px;
-            font-family: $maven-pro;
-            margin-left: 35px;
-            color: $blanco;
-        }
-        .mapa{
-            margin-top: 40px;
-            margin-left: 120px;
-            border: solid $color-s 2px;
-            width: 450px;
-            height: 300px
-        }
-}
-
-.title-ubi{
-    @extend .title-sp ;
-}
 
