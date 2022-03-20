@@ -1,0 +1,154 @@
+//Sección Seguros Personales//
+
+.sect-sp{
+    height: 100%;
+    background-color:$gris-claro;
+}
+
+.title-sp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 10vh;
+    padding-top:20px;
+        h2{
+            margin-top: 20px;
+            font-size: 28px;
+            font-family:$title-galeria;
+                hr{
+                    margin: 5px;
+                    width: 600px;
+                    border: solid 1px $color-s;
+                }
+         }
+}
+
+.btn-g-flex{
+    margin-top: 20px;
+    .btn-galeria{
+        font-family: $title-galeria;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        background-color: $color-s;
+        padding: 6px;
+        border-radius: 3px;
+        border: solid black 1px;
+        transition: all 0.5s;
+            &:hover{
+                background-color: white;
+                color: black;
+            }
+    }
+}
+
+.galeria-sp{
+    margin-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns:repeat(4 25vw);
+    grid-template-areas: 
+    "card card card card";
+        .card{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+                .img-sp{
+                    width: 279px;
+                    height: 180px;
+                    border-radius: 3px;
+                }
+            h4{
+                text-align: center;
+                font-family:$title-card; 
+                font-size: 20px;
+                color: $negro;
+                hr{
+                    margin:auto;
+                    margin-top: 5px; 
+                    width: 200px;
+                    border: solid $color-s 1px;
+                }
+            }
+            p{
+                font-size: 17px;
+                text-align: start;
+                font-family:$title-card; 
+                padding: 10px 10px 10px 30px;
+                color: $negro;
+                height: 120px;
+            }
+        }
+}
+
+
+//Sección Seguros Empresariales//
+
+.sect-se{
+    height: 100%;
+    background-color:$color-p2;
+}
+.title-se{
+   @extend .title-sp;
+}
+
+.galeria-se{
+    margin-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns:repeat(4 25vw);
+    grid-template-areas: 
+    "card card card card";
+        .card{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+                .img-se{
+                    width: 273px;
+                    height: 180px;
+                    border-radius: 3px;
+                }
+                h4{
+                    text-align: center;
+                    font-family: $title-card; 
+                    font-size: 20px;
+                        hr{
+                            width: 200px;
+                            border: solid $color-s 1px;
+                            margin:auto;
+                            margin-top: 5px;                            
+                        }
+                }
+                p{
+                    font-size: 17px;
+                    text-align: start;
+                    padding: 10px 10px 10px 30px;
+                    color: white;
+                    font-family: $title-card; 
+                    height: 120px;
+                }
+}
+}
+
+//Sección Empresas//
+.title-e{
+    @extend .title-sp ;
+}
+
+.sect-empresas{
+    
+        .empresas-flex{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 70vh;
+            padding: 30px;
+            align-items: center;
+                img{
+                width: 150px;
+                padding: 10px
+                }
+        }
+}

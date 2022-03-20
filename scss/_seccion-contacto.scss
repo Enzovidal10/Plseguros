@@ -40,23 +40,13 @@
 }
 
 .icon-contacto{
-    width: 55px;
+    width: 60px;
     height: auto;
     margin: 50px 20px;
     transition: 0.5s;
         &:hover{
             transform: translateY(-10px);
         }
-}
-.carrousel-flex{
-    position: absolute;
-    margin-left: 200px;
-    width: 300px;
-}
-.carrousel1{
-    display: block;
-    width: 300px;
-    height: 500px;
 }
 
 //Sección ubicación
@@ -68,7 +58,7 @@
             margin-top: 25px;
             text-align: start;
             font-size: 20px;
-            font-family: $title-card;
+            font-family: $title-galeria;
             margin-left: 35px;
             color: $blanco;
         }
