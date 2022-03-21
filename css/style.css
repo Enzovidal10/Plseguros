@@ -8,7 +8,8 @@
 .menu-p-flex {
   display: flex;
   flex-direction: row;
-  background-color: #272727; }
+  background-image: url(../img/banner.jpeg);
+  background-size: cover; }
   .menu-p-flex .menu-p {
     display: flex;
     flex-direction: row;
@@ -26,9 +27,9 @@
         .menu-p-flex .menu-p li a:hover {
           color: white; }
   .menu-p-flex .banner-p {
-    width: 220px;
+    width: auto;
     height: 9vh;
-    margin-right: 45vw;
+    margin-right: 50vw;
     border-radius: 3px; }
 
 /*Menú Navegación 2*/
@@ -55,15 +56,15 @@
       color: #735439; }
 
 .title-p2 {
-  margin: 20px 38% 20px 40px;
-  font-size: 18px;
+  margin: 20px 40% 20px 40px;
+  font-size: 17px;
   font-family: "Roboto", sans-serif;
   text-align: center;
   color: black; }
 
 /*Sección inicio*/
 .sect-inicio {
-  background-image: url(../img/fondo6.jpeg);
+  background-image: url(../img/fondo6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh; }

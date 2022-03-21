@@ -2,7 +2,8 @@
 .menu-p-flex{
     display: flex;
     flex-direction: row;
-    background-color: rgb(39, 39, 39);
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
     .menu-p{
         display: flex;
         flex-direction: row;
@@ -24,9 +25,9 @@
             }
     } 
     .banner-p{
-        width:220px;
+        width: auto;
         height: 9vh;
-        margin-right: 45vw;
+        margin-right: 50vw;
         border-radius: 3px;
     }
 }
@@ -61,8 +62,8 @@
 }
 
 .title-p2{
-    margin:20px 38% 20px 40px;
-    font-size: 18px;
+    margin:20px 40% 20px 40px;
+    font-size: 17px;
     font-family:$title-galeria;
     text-align: center;
     color:$negro ;
@@ -70,7 +71,7 @@
 
 /*Sección inicio*/
 .sect-inicio{
-    background-image: url(../img/fondo6.jpeg);
+    background-image: url(../img/fondo6.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
