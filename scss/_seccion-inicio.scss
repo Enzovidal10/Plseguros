@@ -19,7 +19,7 @@
                 text-transform: uppercase;
                     a{
                         text-decoration: none;
-                        color: rgba(255, 255, 255, 0.432);
+                        color: rgba(255, 254, 254, 0.774);
                         &:hover{
                             color: $blanco;
                         }
@@ -39,7 +39,7 @@
     flex-direction: row;
     align-items: center;
     height: 9vh;
-    background-color:$gris-claro;
+    background-color:$color-fondos;
     padding: 0%;
         li{
             @extend .menu-p2 ;
@@ -47,7 +47,7 @@
             margin: 8px;
                 a{
                     text-decoration: none;
-                    color: $negro;
+                    color: $blanco;
                     font-family: $title-galeria;
                     font-weight: 500;
                     font-size: 15px;
@@ -67,7 +67,7 @@
     font-size: 17px;
     font-family:$title-galeria;
     text-align: center;
-    color:$negro ;
+    color:$blanco;
 }
 
 /*Sección inicio*/
@@ -87,14 +87,13 @@
 }
 .presentacion{
     text-align: center;
-    background-color: rgba(212, 211, 211, 0.603);
-    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.808);
     padding: 70px;  
     width: 350px;
         h3{
             font-size: 20px;
-            font-family:$title-galeria;
-            color: $negro;
+            font-family:$title-card;
+            color: $color-p2;
         }
         hr{
             opacity: 100%;
@@ -102,11 +101,11 @@
             margin-top:5px ;
         } 
         p{
-            color:$color-p;
-            font-family: $title-galeria;
+            color:rgba(255, 255, 255, 0.568);
+            font-family: $title-card;
             padding-top: 20px;
-            font-size: 17px;
-            
+            font-size: 19px;
+            font-weight: 600;           
         }
 }
 
@@ -123,7 +122,7 @@
     border-radius: 4px;
     transition: 0.5s;
         &:hover{
-            color: $color-p;
+            color: $color-p2;
             background-color: $blanco;
             transform: translateY(10px);
         }

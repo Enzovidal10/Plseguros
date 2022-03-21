@@ -1,6 +1,9 @@
 //Sección Contacto//
 .title-contacto{
     @extend .title-sp ;
+    h2{
+        color: $color-titulos-se;
+    }
 }
 
 .sect-contacto{
@@ -73,6 +76,9 @@
 
 .title-ubi{
     @extend .title-sp ;
+    h2{
+        color: $color-titulos-se;
+    }
 }
 
 footer{
