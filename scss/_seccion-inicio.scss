@@ -4,6 +4,8 @@
     flex-direction: row;
     background-image: url(../img/banner2.jpeg);
     background-repeat: repeat-x;
+    height: 9vh;
+    opacity: 1;
     .menu-p{
         display: flex;
         flex-direction: row;
@@ -12,12 +14,12 @@
             li{
                 list-style-type: none;
                 margin: 6px;
-                font-size: 15px;
+                font-size: 14.5px;
                 font-family: $title-galeria;
                 text-transform: uppercase;
                     a{
                         text-decoration: none;
-                        color: rgba(255, 255, 255, 0.644);
+                        color: rgba(255, 255, 255, 0.432);
                         &:hover{
                             color: $blanco;
                         }
@@ -26,7 +28,7 @@
     } 
     .banner-p{
         width: auto;
-        height: 9vh;
+        height: auto;
         margin-right: 46vw;
     }
 }
