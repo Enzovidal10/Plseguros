@@ -2,8 +2,8 @@
 .menu-p-flex{
     display: flex;
     flex-direction: row;
-    background-image: url(../img/banner.jpeg);
-    background-size: cover;
+    background-image: url(../img/banner2.jpeg);
+    background-repeat: repeat-x;
     .menu-p{
         display: flex;
         flex-direction: row;
@@ -27,7 +27,7 @@
     .banner-p{
         width: auto;
         height: 9vh;
-        margin-right: 50vw;
+        margin-right: 46vw;
         border-radius: 3px;
     }
 }
@@ -71,7 +71,7 @@
 
 /*Sección inicio*/
 .sect-inicio{
-    background-image: url(../img/fondo6.jpg);
+    background-image: url(../img/fondo7.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
