@@ -8,7 +8,7 @@
 .menu-p-flex {
   display: flex;
   flex-direction: row;
-  background-image: url(../img/banner.jpeg);
+  background-image: url(../img/banner-automovil.png);
   background-size: cover; }
   .menu-p-flex .menu-p {
     display: flex;
