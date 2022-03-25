@@ -1,7 +1,7 @@
 @media screen and (max-width: 580px) {
     //Mobile
     .sect-inicio{
-        background-image: url(../img/fondo7.jpg);
+        background-image: url(../img/fondo7-1.jpg);
         background-size:cover;
         background-repeat: no-repeat;
         height: 100vh;
@@ -192,5 +192,189 @@
 
 @media screen and (min-width:581px) and (max-width:1023px) {
     //Tablet
+  .sect-inicio{
+    background-image: url(../img/fondo7.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+//Menu nav
+.menu-p-flex{
+    width: 1fr;
+    .banner-p{
+        width: 250px;
+        margin: auto;
+    }
+    .menu-p{
+        .home{
+            display: block;
+            margin: 20px;
+        }
+        li{
+            display: none;
+        }
 
+    }
+}
+
+.menu-p2{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+        li{
+            flex-wrap: wrap;
+            width: 1fr;
+            justify-content: center;
+            a{
+                font-size: 13px;
+            }
+        }
+        .title-p2{
+            display: none;
+        }
+}
+//Tarjeta de presentación y btn
+.presentacion-flex{
+  align-items: center;
+  height: 100vh;
+    .presentacion{
+        width: 300px;
+        padding: 70px;
+        margin-top: 50px;
+            h3{
+                font-size: 20px;
+            }
+            p{
+                font-size: 19px;
+            }
+    }
+     .btn1{
+         margin:30px 0;
+     }
+}
+//Section --Se--
+.sect-se{
+    .title-se{
+        h2{
+            font-size: 26px;
+            hr{
+                width: 80vw;
+                margin:auto;
+            }
+        }
+    }
+    .galeria-se{
+        .card{
+            img{
+                width: 260px;
+            }
+            .btn-g-flex{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+//Section sp---
+.sect-sp{
+    .title-sp{
+        h2{
+            font-size: 26px;
+            hr{
+                width: 80vw;
+                margin:auto;
+            }
+        }
+    }
+    .galeria-sp{
+        .card{
+            img{
+                width: 260px;
+            }
+            .btn-g-flex{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+//title empresas
+.sect-empresas{
+    .sect-flex{
+        .title-e{
+            margin-bottom: 40px;
+            h2{
+                font-size: 26px;
+                hr{
+                    width: 80vw;
+                    margin:auto;
+                }
+            }
+        }
+        
+        .empresas-flex{
+            img{
+                width: 100px;
+            }
+        }
+    }
+    padding-bottom: 40px;
+}
+
+//Section ubicacion
+.sect-contacto{
+    flex-direction: column;
+    .contacto-flex{
+        width: 100%;
+        padding-bottom: 10px;
+            .title-contacto{
+                h2{
+                    font-size: 26px;
+                    hr{
+                        width: 80vw;
+                        margin:auto;
+                    }
+                }
+            }
+    }
+    .ubi-flex{
+        width: 100%;
+        padding-bottom: 30px;
+            .title-ubi{
+                h2{
+                    font-size: 26px;
+                    hr{
+                        width: 80vw;
+                        margin:auto;
+                    }
+                }                   
+            }
+            p{
+                font-size: 18px;
+                font-family: $title-card;
+                margin: 0;
+                padding: 5%;
+            }
+            .flex-map{
+                display: flex;
+                justify-content: center;
+                .mapa{
+                    width: 90vw;
+                    margin:0;
+                }
+            }  
+            .btn{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                img{ 
+                    width: 50px;
+                    margin-top:20px;
+                }
+            }       
+    }
+}
+
+footer{
+    font-size: 13px;
+}
 }

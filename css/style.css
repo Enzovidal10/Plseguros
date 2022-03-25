@@ -250,6 +250,8 @@
 
 .title-contacto h2 {
   color: black; }
+  .title-contacto h2 hr {
+    width: 40vw; }
 
 .sect-contacto {
   display: flex;
@@ -305,6 +307,8 @@
 
 .title-ubi h2 {
   color: black; }
+  .title-ubi h2 hr {
+    width: 40vw; }
 
 footer {
   background-color: rgba(0, 0, 0, 0.863);
@@ -341,7 +345,7 @@ footer {
 
 @media screen and (max-width: 580px) {
   .sect-inicio {
-    background-image: url(../img/fondo7.jpg);
+    background-image: url(../img/fondo7-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh; }
@@ -378,6 +382,115 @@ footer {
         font-size: 18px; }
       .presentacion-flex .presentacion p {
         font-size: 15px; }
+    .presentacion-flex .btn1 {
+      margin: 30px 0; }
+  .sect-se .title-se h2 {
+    font-size: 26px; }
+    .sect-se .title-se h2 hr {
+      width: 80vw;
+      margin: auto; }
+  .sect-se .galeria-se .card img {
+    width: 260px; }
+  .sect-se .galeria-se .card .btn-g-flex {
+    margin-top: 10px; }
+  .sect-sp .title-sp h2, .sect-sp .title-se h2, .sect-sp .title-e h2, .sect-sp .title-contacto h2, .sect-sp .title-ubi h2 {
+    font-size: 26px; }
+    .sect-sp .title-sp h2 hr, .sect-sp .title-se h2 hr, .sect-sp .title-e h2 hr, .sect-sp .title-contacto h2 hr, .sect-sp .title-ubi h2 hr {
+      width: 80vw;
+      margin: auto; }
+  .sect-sp .galeria-sp .card img {
+    width: 260px; }
+  .sect-sp .galeria-sp .card .btn-g-flex {
+    margin-top: 10px; }
+  .sect-empresas {
+    padding-bottom: 40px; }
+    .sect-empresas .sect-flex .title-e {
+      margin-bottom: 40px; }
+      .sect-empresas .sect-flex .title-e h2 {
+        font-size: 26px; }
+        .sect-empresas .sect-flex .title-e h2 hr {
+          width: 80vw;
+          margin: auto; }
+    .sect-empresas .sect-flex .empresas-flex img {
+      width: 100px; }
+  .sect-contacto {
+    flex-direction: column; }
+    .sect-contacto .contacto-flex {
+      width: 100%;
+      padding-bottom: 10px; }
+      .sect-contacto .contacto-flex .title-contacto h2 {
+        font-size: 26px; }
+        .sect-contacto .contacto-flex .title-contacto h2 hr {
+          width: 80vw;
+          margin: auto; }
+    .sect-contacto .ubi-flex {
+      width: 100%;
+      padding-bottom: 30px; }
+      .sect-contacto .ubi-flex .title-ubi h2 {
+        font-size: 26px; }
+        .sect-contacto .ubi-flex .title-ubi h2 hr {
+          width: 80vw;
+          margin: auto; }
+      .sect-contacto .ubi-flex p {
+        font-size: 18px;
+        font-family: "Maven Pro", sans-serif;
+        margin: 0;
+        padding: 5%; }
+      .sect-contacto .ubi-flex .flex-map {
+        display: flex;
+        justify-content: center; }
+        .sect-contacto .ubi-flex .flex-map .mapa {
+          width: 90vw;
+          margin: 0; }
+      .sect-contacto .ubi-flex .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        .sect-contacto .ubi-flex .btn img {
+          width: 50px;
+          margin-top: 20px; }
+  footer {
+    font-size: 13px; } }
+
+@media screen and (min-width: 581px) and (max-width: 1023px) {
+  .sect-inicio {
+    background-image: url(../img/fondo7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; }
+  .menu-p-flex {
+    width: 1fr; }
+    .menu-p-flex .banner-p {
+      width: 250px;
+      margin: auto; }
+    .menu-p-flex .menu-p .home {
+      display: block;
+      margin: 20px; }
+    .menu-p-flex .menu-p li {
+      display: none; }
+  .menu-p2, .menu-p2 li {
+    width: 100%;
+    height: 10vh;
+    text-align: center; }
+    .menu-p2 li {
+      flex-wrap: wrap;
+      width: 1fr;
+      justify-content: center; }
+      .menu-p2 li a {
+        font-size: 13px; }
+    .menu-p2 .title-p2 {
+      display: none; }
+  .presentacion-flex {
+    align-items: center;
+    height: 100vh; }
+    .presentacion-flex .presentacion {
+      width: 300px;
+      padding: 70px;
+      margin-top: 50px; }
+      .presentacion-flex .presentacion h3 {
+        font-size: 20px; }
+      .presentacion-flex .presentacion p {
+        font-size: 19px; }
     .presentacion-flex .btn1 {
       margin: 30px 0; }
   .sect-se .title-se h2 {
