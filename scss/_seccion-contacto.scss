@@ -49,12 +49,15 @@
             margin-left: 35px;
             color: $blanco;
         }
-        .mapa{
-            margin-top: 40px;
-            margin-left: 83px;
-            border: solid $color-s 2px;
-            width: 500px;
-            height: 300px
+        .flex-map{
+            display: flex;
+            justify-content: center;
+            .mapa{
+                margin-top: 40px;
+                border: solid $color-s 2px;
+                width: 500px;
+                height: 300px
+            }
         }
         .btn{
             display: flex;

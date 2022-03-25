@@ -163,9 +163,13 @@
                     margin: 0;
                     padding: 5%;
                 }
-                .mapa{
-                    width: 90vw;
-                    margin: 3%;
+                .flex-map{
+                    display: flex;
+                    justify-content: center;
+                    .mapa{
+                        width: 90vw;
+                        margin:0;
+                    }
                 }  
                 .btn{
                     display: flex;
