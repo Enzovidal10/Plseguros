@@ -16,23 +16,7 @@
 .contacto-flex{
     width:50%;
     height: 100%;
-    padding-bottom: 80px;
-    ul{
-        margin-top: 20px;
-        margin-left: 50px;
-        text-align: start;
-        li{
-            list-style: none;
-            font-size: 20px;
-            font-family: $title-card;
-            color: $blanco;
-                i{
-                    padding: 8px 10px;
-                    font-size: 23px;
-                    color: $color-s;
-                }
-        }
-    }
+    padding-bottom: 80px;  
 }
 
 .img-flex{
