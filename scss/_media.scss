@@ -147,6 +147,7 @@
         }
         .ubi-flex{
             width: 100%;
+            padding-bottom: 30px;
                 .title-ubi{
                     h2{
                         font-size: 26px;
@@ -164,8 +165,17 @@
                 }
                 .mapa{
                     width: 90vw;
-                    margin: 3% 2%;
-                }         
+                    margin: 3%;
+                }  
+                .btn{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    img{ 
+                        width: 50px;
+                        margin-top:20px;
+                    }
+                }       
         }
     }
 

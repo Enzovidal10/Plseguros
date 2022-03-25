@@ -293,6 +293,13 @@
     border: solid #640B00 2px;
     width: 500px;
     height: 300px; }
+  .ubi-flex .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .ubi-flex .btn img {
+      width: 50px;
+      margin-top: 20px; }
 
 .title-ubi h2 {
   color: black; }
@@ -411,7 +418,8 @@ footer {
           width: 80vw;
           margin: auto; }
     .sect-contacto .ubi-flex {
-      width: 100%; }
+      width: 100%;
+      padding-bottom: 30px; }
       .sect-contacto .ubi-flex .title-ubi h2 {
         font-size: 26px; }
         .sect-contacto .ubi-flex .title-ubi h2 hr {
@@ -424,6 +432,13 @@ footer {
         padding: 5%; }
       .sect-contacto .ubi-flex .mapa {
         width: 90vw;
-        margin: 3% 2%; }
+        margin: 3%; }
+      .sect-contacto .ubi-flex .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; }
+        .sect-contacto .ubi-flex .btn img {
+          width: 50px;
+          margin-top: 20px; }
   footer {
     font-size: 13px; } }
