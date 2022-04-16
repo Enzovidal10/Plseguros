@@ -43,7 +43,8 @@
   padding: 0%; }
   .menu-p2 li {
     list-style-type: none;
-    padding: 0 10px; }
+    padding: 0 10px;
+    transition: 0.1s; }
     .menu-p2 li a {
       text-decoration: none;
       color: white;
@@ -54,7 +55,8 @@
       margin-right: 11px;
       color: #A68B6A; }
     .menu-p2 li:hover {
-      background-color: rgba(0, 0, 0, 0.329); }
+      background-color: rgba(0, 0, 0, 0.171);
+      border-top: #A68B6A 2px solid; }
   .menu-p2 .title-p2 {
     margin: 20px 39% 20px 40px;
     font-size: 17px;

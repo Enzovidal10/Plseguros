@@ -45,6 +45,7 @@
             @extend .menu-p2 ;
             list-style-type: none;
             padding: 0 10px;
+            transition: 0.1s;
                 a{
                     text-decoration: none;
                     color: $blanco;
@@ -57,7 +58,8 @@
                     color: $color-p2;
                 }
                 &:hover{
-                    background-color: rgba(0, 0, 0, 0.329);
+                    background-color: rgba(0, 0, 0, 0.171);
+                    border-top: $color-p2 2px solid;
                 }
         }
         .title-p2{
