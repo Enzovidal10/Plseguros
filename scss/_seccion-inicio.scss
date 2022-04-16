@@ -44,28 +44,32 @@
         li{
             @extend .menu-p2 ;
             list-style-type: none;
-            margin: 8px;
+            padding: 0 10px;
                 a{
                     text-decoration: none;
                     color: $blanco;
                     font-family: $title-galeria;
                     font-weight: 500;
-                    font-size: 15px;
-                        &:hover{
-                            color: $color-s;
-                        }
+                    font-size: 15px;                      
                 }
                 i{
-                    margin-right: 8px;
+                    margin-right: 11px;
                     color: $color-p2;
+                }
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.329);
                 }
         }
         .title-p2{
-            margin:20px 40% 20px 40px;
+            margin:20px 39% 20px 40px;
             font-size: 17px;
             font-family:$title-galeria;
             text-align: center;
             color:$blanco;
+            text-decoration: none;
+                &:hover{
+                    color: $color-p2;
+                }
         }
 }
 
@@ -112,10 +116,11 @@
 .btn1{
     margin-top: 50px;
     margin-left: 200px;
-    padding: 5px;
+    padding: 4px 2px;
     width: 100px;
     color: $blanco;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
     background-color:$color-p2;
     border:solid black 2px;
     border-radius: 4px;
@@ -123,7 +128,7 @@
         &:hover{
             color: $color-p2;
             background-color: $blanco;
-            transform: translateY(10px);
+            transform: scale(1.1);
         }
 }
 
