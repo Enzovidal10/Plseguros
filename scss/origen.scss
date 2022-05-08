@@ -2,17 +2,69 @@
     margin: 0%;
     padding: 0%;
 }
+//---------Variables---------//
+
+//Colores//
+$negro:black;
+$negro-claro:rgba(19, 19, 19, 0.856);
+$gris-claro:#F0F0F0;
+$blanco:white; 
+
+$color-p2:#A68B6A;
+$color-s:#640B00;
+$color-fondos:rgb(26, 26, 26);
+$color-titulos-sp:white;
+$color-titulos-se:black;
+$color-subt-sp:#A68B6A;
+$color-parrafos:white;
+
+//Fuentes
+
+$title-card:'Maven Pro', sans-serif; 
+$title-galeria:'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alata&family=Black+Ops+One&family=Carter+One&family=Courgette&family=Exo+2&family=Francois+One&family=Fredoka&family=Fredoka+One&family=Kalam&family=Lalezar&family=Mali:wght@400;600&family=Marcellus+SC&family=Maven+Pro&family=Merienda:wght@700&family=Odor+Mean+Chey&family=Patua+One&family=Paytone+One&family=Press+Start+2P&family=Righteous&family=Roboto&family=Syncopate&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+// font-family: 'Aclonica', sans-serif;
+// font-family: 'Alata', sans-serif;
+// font-family: 'Black Ops One', cursive;
+// font-family: 'Carter One', cursive;
+// font-family: 'Courgette', cursive;
+// font-family: 'Exo 2', sans-serif;
+// font-family: 'Francois One', sans-serif;
+// font-family: 'Fredoka', sans-serif;
+// font-family: 'Fredoka One', cursive;
+// font-family: 'Kalam', cursive;
+// font-family: 'Lalezar', cursive;
+// font-family: 'Mali', cursive;
+// font-family: 'Marcellus SC', serif;
+// font-family: 'Maven Pro', sans-serif;
+// font-family: 'Merienda', cursive;
+// font-family: 'Patua One', cursive;
+// font-family: 'Paytone One', sans-serif;
+// font-family: 'Press Start 2P', cursive;
+// font-family: 'Righteous', cursive;
+// font-family: 'Syncopate', sans-serif;
+// font-family: 'ZCOOL QingKe HuangYou', cursive;
+//font-family: 'Roboto', sans-serif;
+
 
 //Secciones Página principal
-@import "variables";
-@import "seccion-inicio";
-@import "seccion-sp-se";
-@import "seccion-contacto";
+@import "index";
+@import "media";
 
 //Secciones Secundarias
+
+/*Sección Automoviles*/
 @import "automoviles";
+/*Sección Hogar*/
 @import "hogar";
+/*Sección Seguro de Viaje*/
 @import "seguroviaje";
+/*Sección Seguro de Vida*/
 @import "segurovida";
+/*Sección Alquiler*/
 @import "alquiler";
-@import "media";
+
+
+

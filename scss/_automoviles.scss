@@ -22,3 +22,46 @@
         }
 }
 
+.title-auto{
+    text-align:  center;
+    padding: 10px;
+    color: white;
+    background-color: $color-fondos;
+    margin: 0;
+}
+
+.barra-t{
+    border: 1px solid white;
+    margin: 6px 400px;
+    opacity: 1;
+}
+.p-principal{
+    background-color: $color-fondos;
+    color: white;
+    font-size: 17px;
+    padding: 15px;
+    margin: 0;
+}
+
+.planes-flex{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+.p-planes li{
+    padding: 5px 0;
+}
+
+.p-planes{
+    width: 49vw;
+}
+div h3{
+    text-align: center;
+}
+
+div h3 hr{
+    opacity: 1;
+    border: solid 1px black;
+    margin: 0 80px;
+}

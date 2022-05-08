@@ -342,25 +342,6 @@ footer {
     color: white;
     text-transform: uppercase; }
 
-.title-p2 {
-  font-weight: 600; }
-
-.carrousel-flex {
-  position: relative; }
-
-.carrousel1 {
-  width: 100vw;
-  height: 50vh;
-  background-size: 100%; }
-
-.text-carrousel {
-  background-color: rgba(0, 0, 0, 0.555);
-  height: 200px;
-  padding: 20px;
-  margin: auto; }
-  .text-carrousel p {
-    text-align: center; }
-
 @media screen and (max-width: 580px) {
   .sect-inicio {
     background-image: url(../img/fondo7-1.jpg);
@@ -578,3 +559,66 @@ footer {
           margin-top: 20px; }
   footer {
     font-size: 13px; } }
+
+/*Sección Automoviles*/
+.title-p2 {
+  font-weight: 600; }
+
+.carrousel-flex {
+  position: relative; }
+
+.carrousel1 {
+  width: 100vw;
+  height: 50vh;
+  background-size: 100%; }
+
+.text-carrousel {
+  background-color: rgba(0, 0, 0, 0.555);
+  height: 200px;
+  padding: 20px;
+  margin: auto; }
+  .text-carrousel p {
+    text-align: center; }
+
+.title-auto {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #1a1a1a;
+  margin: 0; }
+
+.barra-t {
+  border: 1px solid white;
+  margin: 6px 400px;
+  opacity: 1; }
+
+.p-principal {
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 17px;
+  padding: 15px;
+  margin: 0; }
+
+.planes-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 8px; }
+
+.p-planes li {
+  padding: 5px 0; }
+
+.p-planes {
+  width: 49vw; }
+
+div h3 {
+  text-align: center; }
+
+div h3 hr {
+  opacity: 1;
+  border: solid 1px black;
+  margin: 0 80px; }
+
+/*Sección Hogar*/
+/*Sección Seguro de Viaje*/
+/*Sección Seguro de Vida*/
+/*Sección Alquiler*/

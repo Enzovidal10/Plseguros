@@ -1,0 +1,429 @@
+/*Menu Navegación 1*/
+.menu-p-flex{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/banner2.jpeg);
+    background-repeat: repeat-x;
+    height: 9vh;
+    opacity: 1;
+    .menu-p{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0%;
+            li{
+                list-style-type: none;
+                margin: 6px;
+                font-size: 14.5px;
+                font-family: $title-galeria;
+                text-transform: uppercase;
+                    a{
+                        text-decoration: none;
+                        color: rgba(255, 254, 254, 0.774);
+                        &:hover{
+                            color: $blanco;
+                        }
+                    }
+            }
+    } 
+    .banner-p{
+        width: auto;
+        height: auto;
+        margin-right: 46vw;
+    }
+}
+
+/*Menú Navegación 2*/
+.menu-p2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 9vh;
+    background-color:$color-fondos;
+    padding: 0%;
+        li{
+            @extend .menu-p2 ;
+            list-style-type: none;
+            padding: 0 10px;
+            transition: 0.1s;
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                    font-family: $title-galeria;
+                    font-weight: 500;
+                    font-size: 15px;                      
+                }
+                i{
+                    margin-right: 11px;
+                    color: $color-p2;
+                }
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.171);
+                    border-top: $color-p2 2px solid;
+                }
+        }
+        .title-p2{
+            margin:20px 39% 20px 40px;
+            font-size: 17px;
+            font-family:$title-galeria;
+            text-align: center;
+            color:$blanco;
+            text-decoration: none;
+                &:hover{
+                    color: $color-p2;
+                }
+        }
+}
+
+/*Sección inicio*/
+.sect-inicio{
+    background-image: url(../img/fondo7.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.presentacion-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+    margin:0px 100px ;
+}
+.presentacion{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 70px;  
+    width: 350px;
+        h3{
+            font-size: 20px;
+            font-family:$title-card;
+            color: $color-p2;
+        }
+        hr{
+            opacity: 100%;
+            border: solid 1px $color-s;
+            margin-top:5px ;
+        } 
+        p{
+            color:rgba(255, 255, 255, 0.568);
+            font-family: $title-card;
+            padding-top: 20px;
+            font-size: 19px;
+            font-weight: 600;           
+        }
+}
+
+//boton contacto
+.btn1{
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 4px 2px;
+    width: 100px;
+    color: $blanco;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color:$color-p2;
+    border:solid black 2px;
+    border-radius: 4px;
+    transition: 0.5s;
+        &:hover{
+            color: $color-p2;
+            background-color: $blanco;
+            transform: scale(1.1);
+        }
+}
+
+//icono whatsapp p-fixed//
+#icon-wp{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+//Sección-----Seguros Personales------Seguros Empresariales------Marcas Aseguradoras
+
+//Sección Seguros Personales//
+
+.sect-sp{
+    height: 100%;
+    background-color:$color-fondos;
+}
+
+.title-sp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 10vh;
+    padding-top:20px;
+        h2{
+            margin-top: 20px;
+            font-size: 28px;
+            color: $color-titulos-sp;
+            font-family:$title-galeria;
+                hr{
+                    margin: 5px;
+                    width: 600px;
+                    border: solid 1px $color-s;
+                }
+         }
+}
+
+.btn-g-flex{
+    margin-top: 20px;
+    padding-bottom: 20px ;
+    .btn-galeria{
+        font-family: $title-galeria;
+        font-size: 15px;
+        color: $blanco;
+        text-decoration: none;
+        background-color: $color-s;
+        padding: 6px;
+        border-radius: 3px;
+        border: solid $negro 1px;
+        transition: all 0.5s;
+            &:hover{
+                background-color: $blanco;
+                color: $negro;
+            }
+    }
+}
+
+.galeria-sp{
+    margin-top: 60px;
+    padding:0 20px ;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: repeat(auto,minmax(60vh, 70vh));
+        .card{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+            padding-top: 30px;
+            transition: box-shadow 0.5s;
+                &:hover{
+                    box-shadow: 0px 0px 10px;
+                }
+                .img-sp{
+                    width: 270px;
+                    height: 180px;
+                    border-radius: 3px;
+                }
+            h4{
+                text-align: center;
+                font-family:$title-card; 
+                font-size: 20px;
+                color: $color-subt-sp;
+                hr{
+                    margin:auto;
+                    margin-top: 5px; 
+                    width: 200px;
+                    border: solid $color-s 1px;
+                }
+            }
+            p{
+                font-size: 17px;
+                text-align: center;
+                font-family:$title-card; 
+                padding: 10px 10px 10px 30px;
+                color: $blanco;
+                height: 120px;
+            }
+        }
+}
+
+
+//Sección Seguros Empresariales//
+
+.sect-se{
+    height: 100%;
+    background-color:$color-p2;
+}
+.title-se{
+   @extend .title-sp;
+   h2{
+    color: $color-titulos-se;
+}
+}
+
+.galeria-se{
+    margin-top: 60px;
+    padding:0 20px ;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: repeat(auto,minmax(60vh, 70vh));
+        .card{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+            padding-top: 30px;
+            transition: box-shadow 0.5s;
+                &:hover{
+                    box-shadow:  0px 0px 10px;
+                }
+                .img-se{
+                    width: 270px;
+                    height: 180px;
+                    border-radius: 3px;
+                }
+                h4{
+                    text-align: center;
+                    font-family: $title-card; 
+                    font-size: 20px;
+                        hr{
+                            width: 200px;
+                            border: solid $color-s 1px;
+                            margin:auto;
+                            margin-top: 5px;                            
+                        }
+                }
+                p{
+                    font-size: 17px;
+                    text-align: center;
+                    padding: 10px 10px 10px 30px;
+                    color: white;
+                    font-family: $title-card; 
+                    height: 120px;
+                }
+}
+}
+
+//Sección Marcas de Aseguradoras//
+.title-e{
+    @extend .title-sp ;
+    h2{
+        color: $color-titulos-se;
+    }
+}
+
+.sect-empresas{
+    height: 100vh;
+        .empresas-flex{
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 70vh;
+            padding: 30px;
+            align-items: center;
+                img{
+                width: 150px;
+                padding: 10px;
+                transition: transform 0.4s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+        }
+}
+//-------Sección Contacto y Ubicación--------// 
+
+//Sección Contacto//
+.title-contacto{
+    @extend .title-sp ;
+    h2{
+        color: $color-titulos-se;
+            hr{
+                width: 40vw;
+            }
+    }
+}
+
+.sect-contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $color-p2;
+}
+
+.contacto-flex{
+    width:50%;
+    height: 100%;
+    padding-bottom: 80px;  
+}
+
+.img-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon-contacto{
+    width: 60px;
+    height: auto;
+    margin: 50px 20px;
+    transition: 0.5s;
+        &:hover{
+            transform: translateY(-10px);
+        }
+}
+
+//Sección ubicación
+.ubi-flex{
+    width:50%;
+    height: 100%;
+    padding-bottom: 80px;
+        p{
+            padding:0 20px ;
+            margin-top: 25px;
+            text-align: start;
+            font-size: 20px;
+            font-family: $title-galeria;
+            margin-left: 35px;
+            color: $blanco;
+        }
+        .flex-map{
+            display: flex;
+            justify-content: center;
+            .mapa{
+                margin-top: 40px;
+                border: solid $color-s 2px;
+                width: 500px;
+                height: 300px
+            }
+        }
+        .btn{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            img{ 
+                width: 50px;
+                margin-top:20px;
+            }
+        } 
+}
+
+.title-ubi{
+    @extend .title-sp ;
+    h2{
+        color: $color-titulos-se;
+        hr{
+            width: 40vw;
+        }
+    }
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.863);
+    font-family:$title-galeria;
+    font-size: 15px;
+    height: 4vh;
+    text-align: center;
+    padding: 5px;
+    color:$blanco;
+    border: solid rgba(0, 0, 0, 0.514) 2px;
+        .linkedin{
+            color: white;
+            text-transform: uppercase;
+        }
+    
+}
